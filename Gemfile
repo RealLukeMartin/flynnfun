@@ -1,5 +1,4 @@
 source 'http://rubygems.org'
-ruby '2.1.1'
 
 gem 'rails'
 gem 'rails-observers' # server has error: undefined method `observers=' for ActiveRecord::Base:Class (NoMethodError)
