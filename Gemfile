@@ -1,5 +1,7 @@
 source 'http://rubygems.org'
 
+ruby "2.1.2"
+
 gem 'rails'
 gem 'rails-observers' # server has error: undefined method `observers=' for ActiveRecord::Base:Class (NoMethodError)
 gem 'activerecord-session_store' # server has error: Please add `activerecord-session_store` to your Gemfile to use it. (RuntimeError)
