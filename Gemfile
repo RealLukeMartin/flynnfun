@@ -15,6 +15,8 @@ gem 'cancancan'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'formtastic'
+gem "sinatra"
+gem "thin"
 gem 'state_machine'
 gem 'will_paginate'
 gem 'carrierwave'
@@ -51,6 +53,8 @@ group :development, :test do
   gem 'binding_of_caller' # seems not used
   gem 'quiet_assets'
   gem 'bullet'
+  gem "sinatra"
+  gem "thin"
 end
 
 group :development do
@@ -67,4 +71,6 @@ group :test do
   gem 'vcr'
   gem 'webmock'
   gem 'mocha'
+  gem "sinatra"
+  gem "thin"
 end
